@@ -1,0 +1,3 @@
+interface CategoryInterface {
+    product_count: Int @resolver(class: "ABD\\CatalogGraphQl\\Model\\Resolver\\Category\\ProductsCount")
+}
